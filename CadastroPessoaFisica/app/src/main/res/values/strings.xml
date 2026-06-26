@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Cadastro Pessoa Física</string>
+    <string name="titulo_cadastro">Cadastro Completo</string>
+    <string name="subtitulo_cadastro">Preencha os dados de uma pessoa física e toque no botão para exibir um resumo na tela.</string>
+    <string name="label_nome">Nome completo</string>
+    <string name="hint_nome">Digite o nome completo</string>
+    <string name="label_cpf">CPF</string>
+    <string name="hint_cpf">Somente números</string>
+    <string name="label_telefone">Telefone</string>
+    <string name="hint_telefone">(00) 00000-0000</string>
+    <string name="label_email">E-mail</string>
+    <string name="hint_email">exemplo@email.com</string>
+    <string name="label_endereco">Endereço</string>
+    <string name="label_rua">Rua</string>
+    <string name="hint_rua">Digite a rua</string>
+    <string name="label_numero">Número</string>
+    <string name="hint_numero">Digite o número</string>
+    <string name="label_bairro">Bairro</string>
+    <string name="hint_bairro">Digite o bairro</string>
+    <string name="label_cidade">Cidade</string>
+    <string name="hint_cidade">Digite a cidade</string>
+    <string name="label_genero">Gênero</string>
+    <string name="genero_masculino">Masculino</string>
+    <string name="genero_feminino">Feminino</string>
+    <string name="label_data_nascimento">Data de nascimento</string>
+    <string name="botao_exibir_resumo">Exibir resumo do cadastro</string>
+    <string name="mensagem_campos_obrigatorios">Preencha pelo menos nome e CPF para exibir o resumo.</string>
+    <string name="mensagem_sucesso">Resumo do cadastro gerado com sucesso.</string>
+    <string name="nao_informado">Não informado</string>
+    <string name="resumo_formatado">Resumo do cadastro\n\nNome: %1$s\nCPF: %2$s\nTelefone: %3$s\nE-mail: %4$s\nGênero: %5$s\nData de nascimento: %6$s\nRua: %7$s\nNúmero: %8$s\nBairro: %9$s\nCidade: %10$s</string>
+</resources>
