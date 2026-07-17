@@ -1,41 +1,72 @@
-﻿# Android Person Registration Form
+# Cadastro de Pessoa Física
 
-> Formulario Android para cadastro de pessoa fisica com validacao.
+Atividade Android em Java com formulário de pessoa física, validação de campos, seletor de data e resumo dos dados preenchidos.
 
-## Sobre o projeto
+## Requisitos
 
-Projeto Android (CadastroPessoaFisica) com formulario que coleta nome, CPF, contatos, endereco, genero e data de nascimento. Valida campos obrigatorios, aplica DatePicker para data e exibe resumo formatado dos dados informados ao final do cadastro.
+- Android Studio com suporte ao Android Gradle Plugin usado pelo projeto
+- JDK 17
+- SDK Android compile/target 35
+- Emulador Android ou aparelho com depuração USB
 
-## Funcionalidades principais
+## Configuração Android
 
-- Formulario completo de pessoa fisica
-- Validacao de campos obrigatorios
-- DatePicker para data de nascimento
-- Resumo formatado apos cadastro
-- Material Components e AppCompat
+- Linguagem principal: Java
+- SDK: compile/target 35
+- SDK mínimo: API 24
+- Java/JVM: 17
 
-## Tecnologias utilizadas
+## Funcionalidades
 
-- Android Java
-- Material Components
+- Nome e CPF
+- Contatos e endereço
+- Gênero e data de nascimento
+- Validação obrigatória
 - DatePicker
-- AppCompat
-- Gradle
+- Resumo formatado
 
-## Como executar
+## Estrutura principal
 
-Abra CadastroPessoaFisica/ no Android Studio e execute no emulador.
+- `CadastroPessoaFisica/app/src/main/java/.../MainActivity.java — lógica`
+- `CadastroPessoaFisica/app/src/main/res — layouts/recursos`
+- `CadastroPessoaFisica/app/build.gradle.kts — Android`
 
-## Deploy / Demonstracao
+## Abrir e executar
 
-App Android - gere APK via Android Studio.
+1. No Android Studio, abra a pasta `CadastroPessoaFisica`.
+2. Aguarde a sincronização do Gradle.
+3. Selecione um emulador ou aparelho com API 24 ou superior.
+4. Execute a configuração `app`.
 
-## Repositorio
+## Build pelo wrapper no Windows
 
-[github.com/thomasrangelbugs/android-person-registration-form](https://github.com/thomasrangelbugs/android-person-registration-form)
+Na raiz Android indicada acima:
 
-## Autor
+```powershell
+.\gradlew.bat assembleDebug
+```
 
-**Thomas Rangel Bugs**
+O APK de depuração é produzido pela tarefa padrão `assembleDebug` dentro da árvore `app/build/outputs/apk/debug/`.
 
-Desenvolvido para portfolio, estudo e pratica de desenvolvimento web/mobile.
+## Testes
+
+```powershell
+.\gradlew.bat test
+```
+
+Também valide manualmente criação, leitura, edição, exclusão, rotação de tela e persistência após reiniciar o aplicativo.
+
+## Dados e segurança
+
+- Os dados são locais ao dispositivo; desinstalar o aplicativo pode removê-los.
+- Credenciais de demonstração presentes no código não constituem autenticação segura para produção.
+
+## Limitações
+
+- O código inspecionado representa formulário acadêmico e não indica banco de dados.
+- Dados digitados não devem ser tratados como cadastro persistente.
+- CPF e demais dados pessoais exigem proteção adicional em uso real.
+
+## Repositório
+
+[redobrai-del/thomas-projetos](https://github.com/redobrai-del/thomas-projetos)
