@@ -31,6 +31,10 @@ Atividade Android em Java com formulário de pessoa física, validação de camp
 - `CadastroPessoaFisica/app/src/main/res — layouts/recursos`
 - `CadastroPessoaFisica/app/build.gradle.kts — Android`
 
+## Como usar
+
+Preencha o formulário de pessoa física (nome, CPF, contatos, endereço, gênero e data), valide os campos e veja o resumo na tela.
+
 ## Abrir e executar
 
 1. No Android Studio, abra a pasta `CadastroPessoaFisica`.
