@@ -1,4 +1,4 @@
-# Cadastro de Pessoa Física
+﻿# Cadastro de Pessoa Física
 
 Atividade Android em Java com formulário de pessoa física, validação de campos, seletor de data e resumo dos dados preenchidos.
 
@@ -73,4 +73,8 @@ Também valide manualmente criação, leitura, edição, exclusão, rotação de
 
 ## Repositório
 
-[redobrai-del/thomas-projetos](https://github.com/redobrai-del/thomas-projetos)
+[thomasrangelbugs/android-person-registration-form](https://github.com/thomasrangelbugs/android-person-registration-form)
+
+## Autor
+
+**Thomas Rangel Bugs** — [github.com/thomasrangelbugs](https://github.com/thomasrangelbugs)
